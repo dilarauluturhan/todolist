@@ -1,0 +1,41 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: rgb(96, 150, 180);
+    background: linear-gradient(90deg, rgba(96, 150, 180, 1) 25%, rgba(147, 191, 207, 1) 65%, rgba(189, 205, 214, 1) 100%);
+    color: #1A120B;
+}
+
+.divTodo {
+    font-size: 1.5rem;
+    width: 80%;
+    max-width: 600px;
+}
+
+input {
+    border: 1px solid #BDCDD6;
+    border-radius: 7px;
+    width: 512px;
+}
+
+button {
+    border: 1px solid #BDCDD6;
+    border-radius: 7px;
+
+}
+
+#todos>div {
+    display: flex;
+    align-items: center
+}
+
+#todos>div>button {
+    margin-left: auto;
+    margin-bottom: 5px;
+
+}
+
+#todos>div>input {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+}
