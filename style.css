@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Oxygen', sans-serif;
     background: rgb(96, 150, 180);
