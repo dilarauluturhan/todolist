@@ -29,7 +29,7 @@ function listTodos() {
       let input = document.createElement("input");  //"input" oluşturup tik atılan kutucukları ekledim
       input.setAttribute("type", "checkbox");
       input.checked = todo.done;
-      input.onchange = (e) => toggleTodo(todo);  //tiklediğimde alta geçmesini için "event" kullandım
+      input.onchange = (e) => toggleTodo(todo);  //tiklediğimde alta geçmesi için "event" kullandım
       div.append(input);
       let span = document.createElement("span");  //"span" oluşturup içerikleri ekledim
       span.textContent = todo.title;
